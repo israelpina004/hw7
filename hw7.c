@@ -10,7 +10,7 @@ void print_int_arr(int *arr) {
   for (i = 0; i < ARR_LENGTH; i++) {
     printf(" %u", *(arr + i));
   }
-  printf("]\n");
+  printf(" ]\n");
 }
 
 void avg_of_elems(int *arr) {
